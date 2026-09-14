@@ -12,4 +12,4 @@ MIN(BirthDate) AS oldest_birthdate,
 MAX(BirthDate) AS youngest_birthdate,
 DATEDIFF(year,MIN(BirthDate),GETDATE()) as oldest_customer,
 DATEDIFF(year,MAX(BirthDate),GETDATE()) as youngest_customer
-FROM gold.dim_customer
+FROM gold.dim_customers
