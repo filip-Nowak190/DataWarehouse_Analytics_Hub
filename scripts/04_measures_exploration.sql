@@ -1,3 +1,17 @@
+/*
+===============================================================================
+Measures Exploration (Key Metrics)
+===============================================================================
+Purpose:
+    - To calculate aggregated metrics (e.g., totals, averages) for quick insights.
+    - To identify overall trends or spot anomalies.
+
+SQL Functions Used:
+    - COUNT(), SUM(), AVG()
+===============================================================================
+*/
+
+
 -- Find the Total Sales
 Select sum(Sales_Amount) as Total_SALES  from gold.fact_sales 
 -- Find how many items are sold
