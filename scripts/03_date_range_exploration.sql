@@ -1,3 +1,16 @@
+/*
+===============================================================================
+Date Range & Span Analysis
+===============================================================================
+Purpose:
+    - To identify the time bounds and duration of the dataset.
+    - To evaluate the chronological scope of available records.
+
+Functions Used:
+    - MIN(), MAX(), DATEDIFF()
+===============================================================================
+*/
+
 -- Find the date of the first and last order
 -- How many years of sales are avaiable 
 Select 
