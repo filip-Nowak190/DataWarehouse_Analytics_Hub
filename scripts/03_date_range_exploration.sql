@@ -8,8 +8,8 @@ FROM gold.fact_sales
 
 -- Find the youngest and oldest customer
 SELECT
-MIN(Birth_Date) AS oldest_birthdate,
-MAX(Birth_Date) AS youngest_birthdate,
-DATEDIFF(year,MIN(Birth_Date),GETDATE()) as oldest_customer,
-DATEDIFF(year,MAX(Birth_Date),GETDATE()) as youngest_customer
+MIN(BirthDate) AS oldest_birthdate,
+MAX(BirthDate) AS youngest_birthdate,
+DATEDIFF(year,MIN(BirthDate),GETDATE()) as oldest_customer,
+DATEDIFF(year,MAX(BirthDate),GETDATE()) as youngest_customer
 FROM gold.dim_customer
